@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* start navbar */
+
+.navbar {
+    height: 10vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.navbar a{
+    margin: 15px;
+    background: transparent;
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+}
+
+.more-icon {
+    height: 40px;
+    background: transparent;
+}
+
+/* end navbar */
+
+.container {
+    position: relative;
+    height: 90vh;
+    margin-left: 5px;
+}
+
+/* start introduction */
+
+.introduction {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%
+}
+
+p {
+    color: rgb(175, 175, 175);
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.name {
+    color: #EEE0CB;
+    font-size: 80px;
+}
+
+.developer {
+    color: #BAA898;
+    font-size: 50px;
+}
+
+.goal {
+    color: #baa8987e;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.more-about {
+    font-size: 10px;
+    text-align: center;
+    color: #BAA898;
+    border: #BAA898 solid 5px;
+    padding: 5px;
+    text-decoration: none;
+    width: fit-content;
+    transition: .5s ease-in-out;
+    font-size: 20px;
+    
+}
+
+.more-about:hover {
+    background-color: #BAA898;
+    color:  rgb(29, 29, 29);
+
+}
+
+/* end introduction */
+
+/*start skills */
+.about-me {
+    height: 100vh;
+}
+
+.my-skills {
+    color: #EEE0CB;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+.bubbles {
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.skills-section {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #baa8987e;
+    background-color: #baa8987e;
+    border-radius: 50%;
+}
+
+.skills-section h3 {
+    color: #BAA898;
+    margin-top: 50px;
+    background: transparent;
+    font-size: 40px;
+}
+
+.icon {
+    height: 100px;
+    background: transparent;
+}
+
+/* end skills */
+
+/* start projects */
+
+
+
+.projects {
+    margin-left: 5px;
+    text-align: center;
+    height: 50vh;
+}
+
+.projects-section h2{
+    color: #EEE0CB;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+.projects h4{
+    color: #EEE0CB;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.project-img {
+    height: 150px;
+    width: 250px;
+    border: solid #baa8987e;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* end projects */
+
+/* start footer */
+
+.contact{
+    text-align: center;
+    height: 80vh;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact h2{
+    color: #EEE0CB;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact label {
+    color: #EEE0CB;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-field{
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px; 
+    height:35px; 
+    width:235px;
+    resize: none;
+}
+
+button {
+    border-radius: 5px;
+    outline:none;
+}
+
+.more-on{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more-on h2{
+    color:#dcc8b6;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.more-icon{
+    margin: 10px;
+}
+
+/* end footer */
