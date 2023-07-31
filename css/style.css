@@ -4,7 +4,7 @@
     box-sizing: border-box;
     background-color: rgb(29, 29, 29);
     font-family: Arial, Helvetica, sans-serif;
-} 
+}
 
 html{
     scroll-behavior: smooth;
@@ -84,7 +84,7 @@ p {
     width: fit-content;
     transition: .5s ease-in-out;
     font-size: 20px;
-    
+
 }
 
 .more-about:hover {
@@ -171,7 +171,7 @@ p {
     justify-content: center;
     text-align: center;
     margin: 10px;
-    
+
 }
 
 .project-img {
@@ -190,7 +190,7 @@ a{
 
 /* end projects */
 
-/* start footer */
+/* start contact */
 
 .contact{
     text-align: center;
@@ -218,8 +218,8 @@ a{
     border-radius: 10px;
     border: none;
     padding: 5px;
-    margin-top: 5px; 
-    height:35px; 
+    margin-top: 5px;
+    height:35px;
     width:235px;
     resize: none;
 }
@@ -242,6 +242,11 @@ button {
 
 .more-icon{
     margin: 10px;
+    transition: .5s ease-in-out;
 }
 
-/* end footer */
+.more-icon:hover{
+  transform: rotate(-15deg);
+}
+
+/* end contact */
